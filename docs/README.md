@@ -2,7 +2,7 @@
 
 Plugin que genera un buffer o un área de influencia sobre un punto, linea o polígono que se dibuje sobre el mapa y con una equidistancia determinada.
 
-![Imagen1](./img/buffer_1.png)
+![Imagen1](../img/buffer_1.png)
 
 ## Dependencias
 
