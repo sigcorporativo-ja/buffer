@@ -1,0 +1,42 @@
+{
+  "url": {
+    "name": "buffer",
+    "separator": "*"
+  },
+  "constructor": "M.plugin.Buffer",
+  "parameters": [{
+    "type": "object",
+    "properties": [{
+      "type": "simple",
+      "name": "position",
+      "position": 0,
+      "possibleValues": ["TL", "TR", "BL", "BR"]
+    }, {
+      "type": "boolean",
+      "name": "collapsed",
+      "position": 1
+    }, {
+      "type": "boolean",
+      "name": "collapsible",
+      "position": 2
+    }]
+  }],
+  "files": {
+    "ol": {
+      "scripts": ["buffer.ol.min.js"],
+      "styles": ["buffer.ol.min.css"]
+    }
+  },
+  "metadata": {
+    "name": "Buffer",
+    "description": "Dibuja un buffer o área de influencia",
+    "text": "Dibuja un buffer o área de influencia sobre una linea, polígono o punto que se dibuje sobre el mapa.",
+    "version": "1.0.0",
+    "date": "Diciembre, 2019",
+    "author": "",
+    "org": "Consejería de Medioambiente y Ordenación del Territorio de la Junta de Andalucía",
+    "tags": "mapea,plugin",
+    "icon": "./facade/assets/icons/icons.svg",
+    "centralized": true
+  }
+}
