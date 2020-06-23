@@ -32,9 +32,9 @@
     "description": "Dibuja un buffer o área de influencia",
     "text": "Dibuja un buffer o área de influencia sobre una linea, polígono o punto que se dibuje sobre el mapa.",
     "version": "1.0.0",
-    "date": "Diciembre, 2019",
+    "date": "Junio, 2020",
     "author": "",
-    "org": "Consejería de Medioambiente y Ordenación del Territorio de la Junta de Andalucía",
+    "org": "Consejería de Hacienda, Industria y Energía. Junta de Andalucía.",
     "tags": "mapea,plugin",
     "icon": "./facade/assets/icons/icons.svg",
     "centralized": true
