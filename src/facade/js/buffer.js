@@ -44,14 +44,6 @@ export default class Buffer extends M.Plugin {
     this.position_ = options.position || 'TL';
 
     /**
-     * Classname of html Plugin
-     *
-     * @private
-     * @type {String}
-     */
-    this.className_ = options.classname || 'm-buffer';
-
-    /**
      * Option to allow the plugin to be collapsed or not
      * @private
      * @type {Boolean}
@@ -112,7 +104,7 @@ export default class Buffer extends M.Plugin {
     this.panelTools_ = new M.ui.Panel('buffer', {
       collapsed: this.collapsed_,
       collapsible: this.collapsible_,
-      className: this.className_,
+      className: 'm-buffer',
       collapsedButtonClass: 'g-cartografia-editar',
       position: M.ui.position[this.position_],
       tooltip: getValue('tooltip'),
