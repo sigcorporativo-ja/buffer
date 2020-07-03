@@ -29,13 +29,6 @@ Plugin que genera un buffer o un área de influencia sobre un punto, linea o pol
 
 - **collapsed**. Si es *true*, el panel aparece cerrado. Si es *false*, el panel aparece abierto. Por defecto tiene el valor *true*.
 
-
-## Eventos
-
-
-## Otros métodos
-
-
 ## Ejemplos de uso
 
 ### Ejemplo 1
