@@ -90,7 +90,7 @@ export default class BufferControl extends M.Control {
               <label for="kilometro">${getValue('unit_km')}</label>
             </div>
           </div>`,
-          getValue('title_popup')
+          getValue('title_popup'),
         );
         const dialog = document.querySelector('.m-dialog > div.m-modal > div.m-content');
         dialog.style.minWidth = 'auto';
