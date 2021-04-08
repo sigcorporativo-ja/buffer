@@ -27,7 +27,7 @@ export default class BufferLayer extends M.Layer {
 
     this.layer = layer;
 
-    this.type = M.layer.type.GeoJSON;
+    this.type = 'BufferLayer';
   }
 
   /**
