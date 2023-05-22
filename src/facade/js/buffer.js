@@ -105,7 +105,7 @@ export default class Buffer extends M.Plugin {
       collapsed: this.collapsed_,
       collapsible: this.collapsible_,
       className: 'm-buffer',
-      collapsedButtonClass: 'g-cartografia-editar',
+      collapsedButtonClass: 'g-cartografia-gps3',
       position: M.ui.position[this.position_],
       tooltip: getValue('tooltip'),
     });

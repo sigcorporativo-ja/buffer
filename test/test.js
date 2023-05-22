@@ -5,7 +5,9 @@ const map = M.map({
 });
 
 const mp = new Buffer({
-  position: 'BR',
+  position: 'TL',
 });
 
 map.addPlugin(mp);
+
+window.map = map;

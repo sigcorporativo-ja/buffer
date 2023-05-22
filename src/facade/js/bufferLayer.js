@@ -28,6 +28,7 @@ export default class BufferLayer extends M.Layer {
     this.layer = layer;
 
     this.type = 'BufferLayer';
+    this.name = 'Buffer';
   }
 
   /**
